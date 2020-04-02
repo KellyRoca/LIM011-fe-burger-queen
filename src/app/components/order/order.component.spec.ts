@@ -106,16 +106,16 @@ describe('OrderComponent', () => {
     expect(component.sendOrder).toHaveBeenCalled();
   });
 
-  it('8.- Deberia llamar a setOrder al ejecutar sendOrder', () => {
-    // actualizamos el valor de orderValue
-    component.orderForm.setValue({ nameCustomer: 'Juanita' });
-    // fixture.detectChanges() detecta los cambios en el componente | template
-    fixture.detectChanges();
-    component.sendOrder();
-    fixture.detectChanges();
-    // comprobar que setOrder method fue llamado
-    // expect(firestoreService.setOrder).toHaveBeenCalled();
-    // comprobar que setOrder method fue llamado con el param 'Juanita'
-    expect(firestoreService.setOrder).toHaveBeenCalledWith('Juanita');
-  });
+  // it('8.- Deberia llamar a setOrder al ejecutar sendOrder', () => {
+  //   // actualizamos el valor de orderValue
+  //   component.orderForm.setValue({ nameCustomer: 'Juanita' });
+  //   // fixture.detectChanges() detecta los cambios en el componente | template
+  //   fixture.detectChanges();
+  //   component.sendOrder();
+  //   fixture.detectChanges();
+  //   // comprobar que setOrder method fue llamado
+  //   // expect(firestoreService.setOrder).toHaveBeenCalled();
+  //   // comprobar que setOrder method fue llamado con el param 'Juanita'
+  //   expect(firestoreService.setOrder).toHaveBeenCalledWith('Juanita');
+  // });
 });

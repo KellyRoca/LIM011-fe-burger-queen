@@ -22,4 +22,33 @@ fdescribe('ProductComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('debería getArrayOfExtras ser vacío cuando el array de extras seleccionados es vacío', () => {
+    const extrasSelected = [];
+    component.getArrayOfExtras(extrasSelected);
+
+    expect(component.arrExtras).toEqual([]);
+    expect(component.priceExtras).toEqual(0);
+  })
+
+  it('debería getArrayOfExtras tener 1 elememento cuando el array de extras seleccionados es 1 y un priceExtras igual a 1', () => {
+    const expectExtrasSelected = [
+      {
+        id: '123e', data: {
+          category: "extras",
+          image: "https://firebasestorage.googleapis.com/v0/b/burgerqueen-ee96d.appspot.com/o/huevo.png?alt=media&token=2bd203e1-b8ec-49ee-bcd0-2673a6904535",
+          name: "Huevo",
+          popup: false,
+          price: 1,
+        }
+    
+      }
+    ];
+
+    const extrasSelected = expectExtrasSelected;
+    component.getArrayOfExtras(extrasSelected);
+
+    expect(component.arrExtras).toEqual(expectExtrasSelected);
+    expect(component.priceExtras).toEqual(1);
+  })
 });

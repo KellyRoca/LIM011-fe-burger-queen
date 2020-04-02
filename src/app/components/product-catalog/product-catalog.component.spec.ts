@@ -110,6 +110,8 @@ fdescribe('ProductCatalogComponent', () => {
     expect(component.getByCategory).toHaveBeenCalled();
   })
 
+
+
   it('getByCategory con el argumento drinks debería dar el arrayFilter del producto que sea de esa categoría', () => {
     const mockProducts = productsMock;
     component.products = mockProducts;
