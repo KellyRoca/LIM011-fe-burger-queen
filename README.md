@@ -84,159 +84,69 @@ costo total.
 
 ## Objetivos de aprendizaje
 
-1. El objetivo principal de es aprender a construir una _interfaz web_ usando
-el _framework_ elegido ([React](https://reactjs.org/), [Vue](https://es.vuejs.org/index.html) o [Angular](https://angular.io/)) o vanilla JS. Todos estos frameworks de
-Front-end atacan el mismo problema: **cómo mantener la interfaz y el estado
-sincronizados**. Así que esta experiencia espera familiarizarte con el concepto
-de _estado de pantalla_, y cómo cada cambio sobre el estado se va a
-ir reflejando en la interfaz (por ejemplo, cada vez que agregamos un _producto_
-a un _pedido_, la interfaz debe actualizar la lista del pedido y el total).
-
-2. Como objetivo secundario, deberás seguir las recomendaciones para PWAs
-(_Progressive Web Apps_), lo cual incluye conceptos como **offline**. Para
-guiarte con respecto a este tema te recomendamos usar [Lighthouse](https://developers.google.com/web/tools/lighthouse/?hl=es),
-que es una herramienta de Google que nos ayuda a asegurar que nuestras web apps
-sigan "buenas prácticas". De hecho, usaremos Lighthouse a la hora de evaluar el
-proyecto.
-
-Recuerda colocar en esta seccion los objetivos de aprendizaje que quedaron 
-pendientes de tu proyecto anterior.
-
 ### HTML y CSS
 
-- [ ] HTML semántico
-- [ ] CSS flexbox
-- [ ] Sass
-- [ ] Maquetación
+- [x] HTML semántico
+- [x] CSS flexbox
+- [x] Sass
+- [x] Maquetación
 
 ### Frontend Development
 
-- [ ] Componentes
+- [x] Componentes
 - [ ] Manejo del estado
 
 ### PWA
 
-- [ ] Concepto
-- [ ] Utilidad
+- [x] Concepto
+- [x] Utilidad
 - [ ] Que es [Workbox](https://developers.google.com/web/tools/workbox)
 - [ ] Qué es un `serviceWorker`
 
 ### Angular
 
-- [ ] [Uso de Components | Templates](https://angular.io/guide/architecture-components#introduction-to-components)
-- [ ] [Directivas estructurales (ngIf / ngFor)](https://angular.io/guide/template-syntax#built-in-structural-directives)
-- [ ] [@Input | @Ouput](https://angular.io/guide/component-interaction#component-interaction)
-- [ ] [Creación y uso de servicios](https://angular.io/guide/architecture-services#providing-services)
+- [x] [Uso de Components | Templates](https://angular.io/guide/architecture-components#introduction-to-components)
+- [x] [Directivas estructurales (ngIf / ngFor)](https://angular.io/guide/template-syntax#built-in-structural-directives)
+- [x] [@Input | @Ouput](https://angular.io/guide/component-interaction#component-interaction)
+- [x] [Creación y uso de servicios](https://angular.io/guide/architecture-services#providing-services)
 - [ ] [Manejos de rutas](https://angular.io/guide/router)
 - [ ] [Uso de Observables](https://angular.io/guide/observables-in-angular)
 - [ ] [Uso de HttpClient](https://angular.io/guide/http)
-- [ ] [Estilos de componentes (ngStyle / ngClass)](https://angular.io/guide/template-syntax#built-in-directives)
-
-
-### React
-
-- [ ] [`JSX`](https://es.reactjs.org/docs/introducing-jsx.html)
-- [ ] [Componentes `class` y componentes `function`](https://es.reactjs.org/docs/components-and-props.html#function-and-class-components)
-- [ ] `props`
-- [ ] [Manejo de eventos](https://es.reactjs.org/docs/handling-events.html)
-- [ ] [Listas y keys](https://es.reactjs.org/docs/lists-and-keys.html)
-- [ ] [Renderizado condicional](https://es.reactjs.org/docs/conditional-rendering.html)
-- [ ] [Levantamiento de estados](https://es.reactjs.org/docs/lifting-state-up.html)
-- [ ] [`hooks`](https://es.reactjs.org/docs/hooks-intro.html)
-- [ ] [`CSS` modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
-- [ ] [React Router](https://reacttraining.com/react-router/web)
-
-
-
-### Vue
-
-- [Instancia de Vue.js](https://es.vuejs.org/v2/guide/instance.html)
-- [Datos y métodos](https://es.vuejs.org/v2/guide/instance.html#Datos-y-Metodos)
-- [Uso y creación de Componentes](https://vuejs.org/v2/guide/components.html)
-- [Props](https://es.vuejs.org/v2/guide/components.html#Pasando-datos-a-componentes-secundarios-con-Props)
-- Directivas ([v-bind](https://es.vuejs.org/v2/api/#v-bind) | [v-model](https://es.vuejs.org/v2/guide/forms.html))
-- Renderizado condicional ([v-if](https://es.vuejs.org/v2/guide/conditional.html#v-if) | [v-else](https://es.vuejs.org/v2/guide/conditional.html#v-else))
-- Iteraciones ([v-for](https://es.vuejs.org/v2/guide/list.html#Mapeando-una-matriz-a-elementos-con-v-for))
-- Eventos ([v-on](https://es.vuejs.org/v2/guide/events.html))
-- [Propiedades Computadas y Observadores](https://es.vuejs.org/v2/guide/computed.html)
-- [Router](https://router.vuejs.org/guide/#html)
-- [Clases y Estilos](https://es.vuejs.org/v2/guide/class-and-style.html)
+- [x] [Estilos de componentes (ngStyle / ngClass)](https://angular.io/guide/template-syntax#built-in-directives)
 
 
 ### Firebase
 
-- [ ] Firestore
+- [x] Firestore
 - [ ] Firebase security rules
-- [ ] Observables
+- [x] Observables
 
 ### Testing
-- [ ] Testeo de tus interfaces
-- [ ] Testeo de componentes
+- [x] Testeo de tus interfaces
+- [x] Testeo de componentes
 - [ ] Testeo asíncrono
-- [ ] Mocking
+- [x] Mocking
 
 ### Colaboración en Github
 
-- [ ] Branches
-- [ ] Pull Requests
+- [x] Branches
+- [x] Pull Requests
 - [ ] Tags
 
 ### Organización en Github
 
-- [ ] Projects
-- [ ] Issues
-- [ ] Labels
-- [ ] Milestones
+- [x] Projects
+- [x] Issues
+- [x] Labels
+- [x] Milestones
 
 ### Buenas prácticas de desarrollo
 
-- [ ] Modularización
-- [ ] Nomenclatura / Semántica
-- [ ] Linting
+- [x] Modularización
+- [x] Nomenclatura / Semántica
+- [x] Linting
 
 ***
-
-## Consideraciones
-
-Este proyecto se debe "resolver" de a pares.
-
-Trabaja en una historia hasta terminarla antes de pasar a la siguiente. Trabaja
-hasta la historia que puedas en el tiempo especificado.
-
-La lógica del proyecto debe estar implementada completamente en JavaScript
-(ES6+), HTML y CSS y empaquetada de manera automatizada.
-En este proyecto Sí está permitido usar librerías o frameworks
-(debes elegir entre [React](https://reactjs.org/), [Vue](https://es.vuejs.org/index.html),
-[Angular](https://angular.io/) o Vanilla Js).
-
-La aplicación debe ser un _Single Page App_. Los pedidos los tomaremos desde una
-_tablet_, pero **no queremos una app nativa**, sino una web app que sea
-**responsive** y pueda funcionar **offline**.
-
-La interfaz debe estar diseñada específicamente para correr en
-**tablets**.
-
-Necesitamos pensar bien en el aspecto UX de de quienes van a tomar los pedidos,
- el tamaño y aspecto de los botones, la visibilidad del estado actual del
- pedido, etc.
-
-La aplicación desplegada debe tener 80% o más el las puntuaciones de
-Performance, Progressive Web App, Accessibility y Best Practices de Lighthouse.
-
-Deberas de guardar la información de los pedidos realizados por
-lo cual te reocmendamos utilizar [Firebase](https://firebase.google.com/).
-
-La aplicación debe hacer uso de `npm-scripts` y contar con scripts `start`,
-`test`, `build` y `deploy`, que se encarguen de arrancar, correr las pruebas,
-empaquetar y desplegar la aplicación respectivamente.
-
-Los tests unitarios deben cubrir un mínimo del 90% de _statements_, _functions_,
-_lines_ y _branches_.
-
-Por otro lado, deberás definir la estructura de carpetas y archivos que consideres
-necesaria. Puedes guiarte de las convenciones del _framework_ elegido. Por ende,
-los _tests_ y el _setup_ necesario para ejecutarlos, serán hechos por ti.
-
 ## Criterios de aceptación del proyecto
 
 ### Definición del producto
@@ -268,72 +178,11 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 
 ---------------------
 
-#### [Historia de usuario 2] Jefe de cocina debe ver los pedidos
-Yo como jefx de cocina quiero ver los pedidos de los clientes en orden y
-marcar cuáles están listos para saber qué se debe cocinar y avisar a lxs meserxs
-que un pedido está listo para servirlo a un cliente.
+### PROTOTIPOS
 
-##### Criterios de aceptación
-  * Ver los pedidos ordenados según se van haciendo.
-  * Marcar los pedidos que se han preparado y están listos para servirse.
-  * Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se
-  marcó como completado.
-
-##### Definición de terminado
-  * Debes haber recibido _code review_ de al menos una compañera.
-  * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-  * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-  * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
----------------------
-
-#### [Historia de usuario 3] Meserx debe ver pedidos listos para servir
-Yo como meserx quiero ver los pedidos que están preparados para entregarlos
-rápidamente a los clientes que las hicieron.
-
-##### Criterios de aceptación
-  * Ver listado de pedido listos para servir.
-  * Marcar pedidos que han sido entregados.
-
-##### Definición de terminado
-  * Debes haber recibido _code review_ de al menos una compañera.
-  * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-  * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-  * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-  * Los datos se deben mantener íntegros, incluso después de que un pedido ha
-  terminado. Todo esto para poder tener estadísticas en el futuro.
-
-***
-
-## Pistas / Tips
-
-### Frameworks / libraries
-
-* [React](https://reactjs.org/)
-* [Angular](https://angular.io/)
-* [Vue](https://es.vuejs.org/index.html)
-
-### Herramientas
-
-* [npm-scripts](https://docs.npmjs.com/misc/scripts)
-* [Babel](https://babeljs.io/)
-* [webpack](https://webpack.js.org/)
-
-### PWA
-
-* [Tu primera Progressive Web App - Google developers](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=es)
-* [Progressive Web Apps - codigofacilito.com](https://codigofacilito.com/articulos/progressive-apps)
-* [offlinefirst.org](http://offlinefirst.org/)
-* [Usando Service Workers - MDN](https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API/Using_Service_Workers)
-* [Cómo habilitar datos sin conexión - Firebase Docs](https://firebase.google.com/docs/firestore/manage-data/enable-offline?hl=es-419)
-
-### Serverless
-
-* [Qué es eso de serverless? - @PamRucinque en Medium](https://medium.com/@PamRucinque/qu%C3%A9-es-eso-de-serverless-f4f6c8949b87)
-* [Qué es Serverless? | FooBar - YouTube](https://www.youtube.com/watch?v=_SYHUpLi-2U)
-* [Firebase](https://firebase.google.com/)
-* [Serverless Architectures - Martin Fowler](https://www.martinfowler.com/articles/serverless.html)
-
-### Cloud functions
-
-* [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)
+#### 1ER PROTOTIPO
+![1erPrototipo](https://firebasestorage.googleapis.com/v0/b/burgerqueen-ee96d.appspot.com/o/WhatsApp%20Image%202020-04-03%20at%2012.04.11%20AM.jpeg?alt=media&token=00f71db9-de32-4610-a52a-ff32cfb96df1)
+#### 2DO PROTOTIPO
+![2doPrototipo](https://firebasestorage.googleapis.com/v0/b/burgerqueen-ee96d.appspot.com/o/WhatsApp%20Image%202020-04-03%20at%2012.04.33%20AM.jpeg?alt=media&token=5019b2e9-7a5c-4168-9af4-0b48d9c613c6)
+#### BURGER QUEEN
+![BurgerQueen](https://firebasestorage.googleapis.com/v0/b/burgerqueen-ee96d.appspot.com/o/Screenshot%20from%202020-04-02%2023-50-46.png?alt=media&token=ebc7bc3b-fbe3-4a57-9667-52cbfacbd98b)
