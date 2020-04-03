@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { DebugElement} from '@angular/core';
 import { HeaderComponent } from './header.component';
 
 fdescribe('HeaderComponent', () => {
@@ -19,12 +18,12 @@ fdescribe('HeaderComponent', () => {
 
   it('debería crearse el componente', () => {
     expect(component).toBeTruthy();
-  })
+  });
 
   it('el título del header debe ser burger queen', () => {
     fixture.detectChanges();
     expect(a.textContent).toContain(component.title);
-  })
+  });
 
   it('no hay etiqueta a en el DOM despues de createComponent()', () => {
     expect(a.textContent).toEqual('');
