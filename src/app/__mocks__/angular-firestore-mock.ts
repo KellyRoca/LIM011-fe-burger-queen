@@ -14,15 +14,15 @@ export class AngularFirestoreMock {
             data: () => doc.data
           }
         }
-      }
-    })
-    return of(actions)
+      };
+    });
+    return of(actions);
   }
 
   collection(nameCollection) {
     return {
-      // add: (objData) => this.add(objData, nameCollection),
       snapshotChanges: () =>  this.snapshotChanges()
     };
   }
 }
+

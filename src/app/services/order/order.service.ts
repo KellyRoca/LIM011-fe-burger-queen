@@ -52,7 +52,7 @@ export class OrderService {
   }
 
   deleteItem(item) {
-    const position = this.newArray.findIndex((product) => product['id'] === item.id);
+    const position = this.newArray.findIndex((product) => product.id === item.id);
     if (position !== -1) {
       this.newArray.splice(position, 1);
     }
