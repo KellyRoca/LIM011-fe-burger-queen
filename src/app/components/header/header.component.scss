@@ -1,13 +1,16 @@
+$first-background-color:  rgb(255, 239, 8);
+$second-background-color: rgb(255, 86, 8);
+
 .bg-yellow{
-  background-color: rgb(255, 239, 8);
+  background-color:$first-background-color;
 }
 
 .bg-red{
-  background-color: rgb(255, 86, 8);
+  background-color: $second-background-color
 }
 
 .bg-red-border{
-  border-color: rgb(255, 86, 8);
+  border-color: $second-background-color;
 }
 
 .navbar-brand{
@@ -20,7 +23,7 @@ li{
 }
 
 .btn-outline-danger{
-  border-color: rgb(255, 86, 8);
+  border-color: $second-background-color;
 }
 
 nav{
@@ -41,7 +44,7 @@ nav{
   }
 
   .bg-yellow{
-    background-color:  rgb(255, 239, 8);
+    background-color:  $first-background-color;
   }
   
   .bg-red{
